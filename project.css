@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-sizing:border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+.box1{
+    background-image: url(pexels-jakubzerdzicki-26597163.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hello{
+    color: white;
+    max-width: 900px;
+    margin: 0;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.text{
+    font-size:40px;
+    font-weight: 30px;
+}
+.blackbox{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+
+.bottom{
+    display: flex;
+}
+
+.contant{
+background-color: #515603;
+}
+.about{
+    background-color: #722300;
+}
+
+.contant,.about{
+    min-height: 0px;
+    padding: 32px;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: lightslategray;
+    padding: 20px;
+}
+
+.row{
+
+    padding: 20px;
+}
+.card-img{
+    height: 145px;
+    
+}
